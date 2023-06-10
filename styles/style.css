@@ -12,6 +12,11 @@ body {
   max-width: 1200px;
 }
 
+.style__links {
+  text-decoration: none;
+  color: white;
+}
+
 .title__section {
   text-transform: uppercase;
   color: #008e94;
