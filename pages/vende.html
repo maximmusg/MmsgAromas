@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Iconos de FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="../img/spray.svg" type="image/x-icon" />
+    <title>Vende saphirus!</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerFlex">
+        <a href="../index.html" class="logo">
+          <img src="../img/logo2.png" alt="Logo de la empresa" />
+        </a>
+        <nav>
+          <ul class="navList">
+            <li><a class="navLink" href="../index.html">Inicio</a></li>
+            <li><a class="navLink" href="tienda.html">Tienda</a></li>
+            <li><a class="navLink" href="nosotros.html">Nosotros</a></li>
+            <li><a class="navLink" href="vende.html">Vende!</a></li>
+            <li><a class="navLink" href="cuenta.html">Cuenta</a></li>
+          </ul>
+        </nav>
+        <a href="carrito.html">
+          <button class="popularBtn" id="btnCarrito">CARRITO</button>
+        </a>
+      </div>
+    </header>
+    <div>
+      <section>
+        <div>
+          <img src="../img/vende.png" alt="" />
+        </div>
+        <div>
+          <form action="">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="apellido">Apellido:</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" />
+            </div>
+            <div>
+              <label for="telefono">Telefóno:</label>
+              <input type="number" />
+            </div>
+            <div>
+              <label for="provincia">Provincia:</label>
+              <select name="provincias" id="provincias">
+                <option value="xx">Provincia</option>
+                <option value="CBA">Córdoba</option>
+                <option value="C">Catamarca</option>
+                <option value="BA">Buenos Aires</option>
+                <option value="SF">Santa Fé</option>
+              </select>
+            </div>
+            <div>
+              <label for="localidad">Localidad:</label>
+              <input type="text" />
+            </div>
+            <p>¿Conocés nuestros productos?</p>
+            <div>Si</div>
+            <input type="radio" name="Conocimiento" value="Si" />
+            <div>No</div>
+            <input type="radio" name="Conocimiento" value="No" />
+            <div>
+              <h4>¿Cómo te gustaría iniciar tu emprendimiento?</h4>
+              <p>Adquiriendo un kit para la venta</p>
+              <input type="checkbox" name="hola" id="kit" value="kit" />
+              <p>Realizando un pedido a sucursal</p>
+              <input type="checkbox" name="hola" id="pedido" value="pedido" />
+            </div>
+            <button>Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <h3>Nuestros revendedores dicen</h3>
+        <h2>Testimonios</h2>
+        <article>
+          <p>
+            Cuando conocí MMSG Saphirus no sabía casi nada de fragancias, ya son
+            6 meses de esta linda experiencia y cada vez me dan más ganas de
+            seguir vendiendo, ¡porque son de muy buena calidad!
+          </p>
+          <p>Gabriel Servin - Formosa</p>
+        </article>
+        <article>
+          <p>
+            Mi experiencia fue realmente excelente, yo buscaba independizarme y
+            manejar mis tiempos. Los productos son muy buenos y la calidad de
+            las fragancias son excelentes. Gracias Saphirus.
+          </p>
+          <p>Maria de los angeles - Capital Federal</p>
+        </article>
+        <article>
+          <p>
+            Me encanta revender los productos de Saphirus, descubrí diferentes
+            tipos de fragancias que nunca antes había conocido, realmente no
+            pensé que sería un producto tan fácil de vender, pero me di cuenta
+            que valió la pena comenzar!
+          </p>
+          <p>Alejandro ale - Misiones</p>
+        </article>
+      </section>
+
+      <section>
+        <div>
+          <h4>Hasta 60% de Ganancia</h4>
+          <h2>Empezá a ganar dinero desde el primer dia</h2>
+          <p>
+            Obtené una ganancia extra sin límites de crecimiento ni esquemas
+            piramidales. Proyectá tus propias metas y alcanzalas solo
+            dependiendo de tu esfuerzo.
+          </p>
+          <p>
+            Saphirus cuenta con un sistema de venta abierto y flexible que te
+            permitirá manejar tus tiempos y tus clientes de manera totalmente
+            libre.
+          </p>
+          <p>
+            Accederás a descuentos especiales, material promocional y
+            capacitación gratuita con el cual podrás profesionalizar tus ventas.
+          </p>
+          <p>¡Animate a descubrir tu lado emprendedor!</p>
+        </div>
+        <div>
+          <img src="" alt="unite al club MMSG Aromatizantes" />
+          <button>REGISTRATE COMO REVENDEDOR</button>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0E3A5A"
+          fill-opacity="1"
+          d="M0,224L48,208C96,192,192,160,288,144C384,128,480,128,576,149.3C672,171,768,213,864,202.7C960,192,1056,128,1152,96C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <div>
+        <h2>Buscanos en las redes</h2>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div>
+        <i class="fa-regular fa-copyright"></i>
+        <p>
+          Copyright 2023 MMSG Aromatizantes saphirus - creado por Gomez
+          Maximiliano
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

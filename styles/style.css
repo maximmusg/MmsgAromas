@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f1ff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.title__section {
+  text-transform: uppercase;
+  color: #008e94;
+}
+
+.header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #0e3a5a;
+}
+
+.bg__component {
+  background-color: #0e3a5a;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.header__position {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.popular__btn {
+  font-size: 1.3rem;
+  background-color: #008e94;
+  color: white;
+}
+
+.popular__btn:hover {
+  background-color: #005b5e;
+}
+
+.work__content {
+  font-family: "Quicksand", sans-serif;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 30%);
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.work__content--p1 {
+  margin-bottom: 2rem;
+  color: #404040;
+}
+
+.work__content--p2 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.btn__work {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer__content {
+  background-color: #0e3a5a;
+  padding: 1rem 0;
+}
+
+.footer__inside {
+  background-color: #212121;
+  padding: 2.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer__icons a i {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header__nav {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer__copy {
+    color: white;
+  }
+}
+
+/* .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  padding: 1rem 0;
+  background-color: #0e3a5a;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.logo img {
+  width: 15rem;
+}
+
+.headerFlex {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+}
+
+.navLink {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.bannerContainer {
+  width: 100%;
+}
+
+.tituloPrincipal {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem;
+  color: #0e3a5a;
+}
+
+.bannerImg {
+  max-width: 100%;
+  width: 100%;
+}
+
+.tittleSection {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem;
+  color: #008e94;
+  margin: 1.5rem;
+}
+
+#destacados {
+  margin-top: 6rem;
+  padding-top: 6rem;
+}
+
+.popular {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.popularProduct {
+  border: 1px solid black;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: white;
+}
+.popularProduct img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.popularBtn {
+  margin: 1rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #008e94;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+}
+
+.work {
+  width: 80%;
+  margin: 6rem auto;
+  position: relative;
+}
+
+.work img {
+  width: 30%;
+}
+
+.workContent {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 30%);
+}
+
+.workContent .work-p1 {
+  margin-bottom: 2rem;
+  color: #404040;
+}
+
+.workContent .work-p2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.workContent button {
+  margin: 1rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #008e94;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+footer {
+  /* margin-top: 0; */
+/* padding: 2rem 0;
+  background-color: #0e3a5a;
+}
+
+.footerIcons {
+  padding: 1.5rem;
+}
+
+.footerContent {
+  background-color: #212121;
+  color: white;
+}
+
+.footerContent a {
+  color: white;
+}
+
+.footerContent a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.footerCopyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  padding: 1.5rem 0;
+} */
