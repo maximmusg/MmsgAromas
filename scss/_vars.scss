@@ -1,0 +1,49 @@
+$primary-color: #008e94;
+$secondary-color: #025053;
+$back-color: #0e3a5a;
+$error: #d32752;
+$info: #f6c31c;
+$sombreado: 2px 2px 5px 1px rgb(0 0 0 / 30%);
+
+//color palette
+
+$colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color,
+  "error": $error,
+  "info": $info,
+  "blue": #1919e6,
+  "red": #e61919,
+  "green": #19e619,
+  "white": white,
+  "black": black,
+);
+
+@mixin btn__style($bg-color: #008e94) {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: $bg-color;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+.btn__style {
+  @include btn__style;
+}
+
+@each $key, $val in $colors {
+  .btn__style-#{$key} {
+    @include btn__style($val);
+    &:hover {
+      background-color: black;
+    }
+  }
+}

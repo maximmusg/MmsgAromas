@@ -1,53 +1,7 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f0f1ff;
-  width: 100%;
-  margin: 0 auto;
-  // max-width: 1200px;
-}
-
-div {
-  .title__section {
-    text-transform: uppercase;
-    color: $primary-color;
-    margin-bottom: 2rem;
-  }
-  .style__links {
-    text-decoration: none;
-    color: white;
-    .popular__btn {
-      @include btn__style;
-    }
-    .popular__btn:hover {
-      background-color: #005b5e;
-    }
-  }
-  .work__content {
-    font-family: "Quicksand", sans-serif;
-    margin: 0 auto;
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    box-shadow: $sombreado;
-    padding: 2rem 1rem 1rem 1rem;
-    .work__content--p1 {
-      margin-bottom: 2rem;
-      color: #404040;
-    }
-    .work__content--p2 {
-      margin-bottom: 2rem;
-      font-weight: bold;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .header__nav {
-    align-items: center;
-    margin: 0 auto;
-  }
-  .footer__copy {
-    color: white;
-  }
-}
+@import "vars";
+@import "globals";
+@import "index";
+@import "tienda";
+@import "nosotros";
+@import "vende";
+@import "cuenta";
