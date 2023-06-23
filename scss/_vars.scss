@@ -22,7 +22,13 @@ $colors: (
 // fonts
 
 $pre-title: "IM Fell DW Pica", serif;
-$sub-title: "Rubik", sans-serif;
+$sell-p: "Rubik", sans-serif;
+
+@mixin sub__title {
+  font-weight: 800;
+  font-family: $pre-title;
+  font-style: italic;
+}
 
 @mixin btn__style($bg-color: #008e94) {
   text-decoration: none;

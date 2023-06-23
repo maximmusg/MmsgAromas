@@ -24,6 +24,21 @@
 
 .sell__testimonials {
   margin-bottom: 10rem;
+
+  .sell__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  h4 {
+    @include sub__title;
+  }
+  h2 {
+    color: $back-color;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .sell__ad {
@@ -31,9 +46,7 @@
   align-items: center;
   div {
     h4 {
-      font-weight: 800;
-      font-family: $pre-title;
-      font-style: italic;
+      @include sub__title;
     }
     h2 {
       color: $back-color;
@@ -41,7 +54,7 @@
     }
     p {
       font-weight: 800;
-      font-family: $sub-title;
+      font-family: $sell-p;
     }
     .sell__msg {
       font-size: 1.2rem;

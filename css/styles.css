@@ -177,6 +177,21 @@ div .work__content .work__content--p2 {
 .sell__testimonials {
   margin-bottom: 10rem;
 }
+.sell__testimonials .sell__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.sell__testimonials h4 {
+  font-weight: 800;
+  font-family: "IM Fell DW Pica", serif;
+  font-style: italic;
+}
+.sell__testimonials h2 {
+  color: #0e3a5a;
+  margin-bottom: 1.5rem;
+}
 
 .sell__ad {
   margin-bottom: 10rem;
