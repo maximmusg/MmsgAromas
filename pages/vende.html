@@ -20,13 +20,14 @@
       href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Montserrat:ital,wght@1,900&family=Quicksand:wght@700&family=Rubik&display=swap"
       rel="stylesheet"
     />
+    <!-- styles -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Vende saphirus!</title>
   </head>
   <body>
@@ -101,158 +102,113 @@
         </div>
       </div>
       <!-- contenido -->
-      <div>
-        <section>
-          <div>
-            <img src="../img/vende.png" alt="" />
-          </div>
-          <div>
-            <form action="">
-              <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" />
-              </div>
-              <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" />
-              </div>
-              <div>
-                <label for="email">Email:</label>
-                <input type="email" />
-              </div>
-              <div>
-                <label for="telefono">Telefóno:</label>
-                <input type="number" />
-              </div>
-              <div>
-                <label for="provincia">Provincia:</label>
-                <select name="provincias" id="provincias">
-                  <option value="xx">Provincia</option>
-                  <option value="CBA">Córdoba</option>
-                  <option value="C">Catamarca</option>
-                  <option value="BA">Buenos Aires</option>
-                  <option value="SF">Santa Fé</option>
-                </select>
-              </div>
-              <div>
-                <label for="localidad">Localidad:</label>
-                <input type="text" />
-              </div>
-              <p>¿Conocés nuestros productos?</p>
-              <div>Si</div>
-              <input type="radio" name="Conocimiento" value="Si" />
-              <div>No</div>
-              <input type="radio" name="Conocimiento" value="No" />
-              <div>
-                <h4>¿Cómo te gustaría iniciar tu emprendimiento?</h4>
-                <p>Adquiriendo un kit para la venta</p>
-                <input type="checkbox" name="hola" id="kit" value="kit" />
-                <p>Realizando un pedido a sucursal</p>
-                <input type="checkbox" name="hola" id="pedido" value="pedido" />
-              </div>
-              <button>Enviar</button>
-            </form>
-          </div>
-        </section>
-  
-        <section>
-          <h3>Nuestros revendedores dicen</h3>
-          <h2>Testimonios</h2>
-          <article>
-            <p>
-              Cuando conocí MMSG Saphirus no sabía casi nada de fragancias, ya son
-              6 meses de esta linda experiencia y cada vez me dan más ganas de
-              seguir vendiendo, ¡porque son de muy buena calidad!
-            </p>
-            <p>Gabriel Servin - Formosa</p>
-          </article>
-          <article>
-            <p>
-              Mi experiencia fue realmente excelente, yo buscaba independizarme y
-              manejar mis tiempos. Los productos son muy buenos y la calidad de
-              las fragancias son excelentes. Gracias Saphirus.
-            </p>
-            <p>Maria de los angeles - Capital Federal</p>
-          </article>
-          <article>
-            <p>
-              Me encanta revender los productos de Saphirus, descubrí diferentes
-              tipos de fragancias que nunca antes había conocido, realmente no
-              pensé que sería un producto tan fácil de vender, pero me di cuenta
-              que valió la pena comenzar!
-            </p>
-            <p>Alejandro ale - Misiones</p>
-          </article>
-        </section>
-  
-        <section>
-          <div>
-            <h4>Hasta 60% de Ganancia</h4>
-            <h2>Empezá a ganar dinero desde el primer dia</h2>
-            <p>
-              Obtené una ganancia extra sin límites de crecimiento ni esquemas
-              piramidales. Proyectá tus propias metas y alcanzalas solo
-              dependiendo de tu esfuerzo.
-            </p>
-            <p>
-              Saphirus cuenta con un sistema de venta abierto y flexible que te
-              permitirá manejar tus tiempos y tus clientes de manera totalmente
-              libre.
-            </p>
-            <p>
-              Accederás a descuentos especiales, material promocional y
-              capacitación gratuita con el cual podrás profesionalizar tus ventas.
-            </p>
-            <p>¡Animate a descubrir tu lado emprendedor!</p>
-          </div>
-          <div>
-            <img src="" alt="unite al club MMSG Aromatizantes" />
-            <button>REGISTRATE COMO REVENDEDOR</button>
-          </div>
-        </section>
-      </div>
-      <!-- wave -->
-      <div class="row">
-        <div class="col-12">
-          <div class="footer__wave">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 1440 320 ">
-              <path
-                fill="#0E3A5A"
-                fill-opacity="1"
-                d="M0,224L48,208C96,192,192,160,288,144C384,128,480,128,576,149.3C672,171,768,213,864,202.7C960,192,1056,128,1152,96C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-              ></path>
-            </svg>
-          </div>
+      <!-- formulario -->
+    <div class="row row__bg">
+      <div class="col-4">
+        <div class="sell__title">
+          <h2>Vendé Saphirus</h2>
         </div>
+        <img src="../img/vende.png" alt="">
       </div>
-      <!-- Footer -->
-      <div class="footer__content ">
-        <div class="row footer__inside ">
-          <div class="col-6 ">
-            <h2>Buscanos en las redes</h2>
+      <div class="col-8 sell__form">
+        <div class="row ">
+          <div class="col-6 sell__input">
+            <input type="text" class="form-control" placeholder="Nombre">
+            <input type="email" class="form-control" placeholder="Email">
+            <select class="form-select">
+              <option value="placeholder">Provincia</option>
+              <option value="1">Buenos Aires</option>
+              <option value="2">Catamarca</option>
+              <option value="3">Chaco</option>
+              <option value="4">Chubut</option>
+              <option value="5">Córdoba</option>
+              <option value="6">Corrientes</option>
+              <option value="7">Entre Ríos</option>
+            </select> 
           </div>
-          <div class="col-6 footer__icons d-flex justify-content-evenly">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <div class="col-6 sell__input">
+            <input type="text" class="form-control" placeholder="Apellido">
+            <input type="text" class="form-control" placeholder="Teléfono">
+            <input type="text" class="form-control" placeholder="Localidad">
           </div>
         </div>
         <div class="row">
-          <div class="col-12 text-white">
-            <p>
-              © Copyright 2023 MMSG Aromatizantes saphirus - creado por Gomez
-              Maximiliano
-            </p>
+          <h5>¿Conocés nuestros productos?</h5>
+          <div class="col-6">
+            <div class="form-check">
+              <input class="form-check-inline" type="radio" name="radio" id="radio1" >
+              <label class="form-check-label" for="radio1" >
+                Si
+              </label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-check">
+              <input class="form-check-inline" type="radio"  name="radio" id="radio2">
+              <label class="form-check-label" for="radio2" >
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h5>hola como estas todo bien?</h5>
+            <div class="form-check">
+              <input class="form-check-inline" type="checkbox" >
+              <label class="form-check-label"  >
+                Adquiriendo un kit para la venta.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-inline" type="checkbox" >
+              <label class="form-check-labe2"  >
+                Realizando un pedido a mayorista.
+              </label>
+          </div>
+        </div>
+        <a href="/pages/vende.html">Enviar</a>
+      </div>
+    </div>
+    <!-- Testimonios -->
+    <div class="row sell__testimonials">
+      <h4>Nuestros revendedores dicen:</h4>
+      <h2>Testimonios</h2>
+      <div class="col-4 sell__card">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Cuando conocí Saphirus no sabía casi nada de fragancias, ya son 6 meses de esta linda experiencia y cada vez me dan más ganas de seguir vendiendo, ¡porque son de muy buena calidad!</p>
+            <h5 class="card-title">
+              <span>Gabriel Servin</span>
+              Herradura, Formosa
+            </h5>
           </div>
         </div>
       </div>
-
+      <div class="col-4 sell__card">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Me encanta revender los productos de Saphirus, descubrí diferentes tipos de fragancias que nunca antes había conocido, no pensé  sería un producto tan fácil de vender, me di cuenta que valió la pena comenzar!</p>
+            <h5 class="card-title">
+              <span>Alejandro</span>
+              Yerba Buena, Tucumán
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 sell__card">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Mi experiencia fue de verdad realmente excelente, En ese momento yo buscaba independizarme y manejar mis tiempos. Los productos son muy buenos y la calidad de las fragancias son excelentes. Gracias Saphirus.</p>
+            <h5 class="card-title">
+              <span>Maria</span>
+              Capital Federal
+            </h5>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
-  </body>
-</html>
+
+
+
+
+

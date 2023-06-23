@@ -1,0 +1,25 @@
+.row__bg {
+  border-radius: 10%;
+  padding: 10rem 1rem;
+  background-color: rgb(190, 232, 244);
+  div {
+    .sell__title {
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .sell__form {
+    .sell__input input {
+      margin-bottom: 1rem;
+    }
+    a {
+      @include btn__style;
+    }
+  }
+}
+
+.sell__testimonials {
+}
