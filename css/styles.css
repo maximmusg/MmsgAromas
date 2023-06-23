@@ -13,176 +13,9 @@
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
-
-.btn__style-primary {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #008e94;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-primary:hover {
-  background-color: black;
-}
-
-.btn__style-secondary {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
+.btn__style:hover {
   background-color: #025053;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-secondary:hover {
-  background-color: black;
-}
-
-.btn__style-error {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #d32752;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-error:hover {
-  background-color: black;
-}
-
-.btn__style-info {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #f6c31c;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-info:hover {
-  background-color: black;
-}
-
-.btn__style-blue {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #1919e6;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-blue:hover {
-  background-color: black;
-}
-
-.btn__style-red {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #e61919;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-red:hover {
-  background-color: black;
-}
-
-.btn__style-green {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #19e619;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-green:hover {
-  background-color: black;
-}
-
-.btn__style-white {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: white;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-white:hover {
-  background-color: black;
-}
-
-.btn__style-black {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: black;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.btn__style-black:hover {
-  background-color: black;
+  cursor: pointer;
 }
 
 * {
@@ -271,6 +104,10 @@ div .style__links .popular__btn {
   -o-border-radius: 5%;
 }
 div .style__links .popular__btn:hover {
+  background-color: #025053;
+  cursor: pointer;
+}
+div .style__links .popular__btn:hover {
   background-color: #005b5e;
 }
 div .work__content {
@@ -305,6 +142,7 @@ div .work__content .work__content--p2 {
   border-radius: 10%;
   padding: 10rem 1rem;
   background-color: rgb(190, 232, 244);
+  margin-bottom: 10rem;
 }
 .row__bg div .sell__title {
   color: #008e94;
@@ -330,6 +168,59 @@ div .work__content .work__content--p2 {
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
+}
+.row__bg .sell__form a:hover {
+  background-color: #025053;
+  cursor: pointer;
+}
+
+.sell__testimonials {
+  margin-bottom: 10rem;
+}
+
+.sell__ad {
+  margin-bottom: 10rem;
+  align-items: center;
+}
+.sell__ad div h4 {
+  font-weight: 800;
+  font-family: "IM Fell DW Pica", serif;
+  font-style: italic;
+}
+.sell__ad div h2 {
+  color: #0e3a5a;
+  margin-bottom: 1.5rem;
+}
+.sell__ad div p {
+  font-weight: 800;
+  font-family: "Rubik", sans-serif;
+}
+.sell__ad div .sell__msg {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.sell__ad div .sell__btn {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.sell__ad div .sell__btn:hover {
+  background-color: #025053;
+  cursor: pointer;
+}
+.sell__ad div img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

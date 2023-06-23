@@ -19,6 +19,11 @@ $colors: (
   "black": black,
 );
 
+// fonts
+
+$pre-title: "IM Fell DW Pica", serif;
+$sub-title: "Rubik", sans-serif;
+
 @mixin btn__style($bg-color: #008e94) {
   text-decoration: none;
   font-size: 1rem;
@@ -33,17 +38,21 @@ $colors: (
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
+  &:hover {
+    background-color: $secondary-color;
+    cursor: pointer;
+  }
 }
 
 .btn__style {
   @include btn__style;
 }
 
-@each $key, $val in $colors {
-  .btn__style-#{$key} {
-    @include btn__style($val);
-    &:hover {
-      background-color: black;
-    }
-  }
-}
+// @each $key, $val in $colors {
+//   .btn__style-#{$key} {
+//     @include btn__style($val);
+//     &:hover {
+//       background-color: black;
+//     }
+//   }
+// }
