@@ -151,6 +151,52 @@ div .work__content .work__content--p2 {
     color: white;
   }
 }
+.product__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.product__card {
+  display: flex;
+  justify-content: center;
+}
+.product__card .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.product__card .card a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.product__card .card a:hover {
+  background-color: #025053;
+  cursor: pointer;
+}
+.product__card .card div h5 {
+  color: #008e94;
+}
+.product__card .card div .card-text {
+  color: rgb(87, 86, 86);
+}
+.product__card .card div .product__price {
+  color: #0e3a5a;
+}
+
 .about__title {
   font-size: 1.5rem;
   text-align: center;

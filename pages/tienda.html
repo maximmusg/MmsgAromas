@@ -26,9 +26,9 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
 
-    <title>Document</title>
+    <title>Tienda</title>
   </head>
   <body>
     <div class="container text-center">
@@ -101,112 +101,127 @@
           </div>
         </div>
       </div>
-      <!-- contenido -->
-      <div>
-        <h1>Tienda</h1>
-        <section>
-          <!-- La idea es despes acomodarlo todo con display Grid -->
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/textil1.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Textil Frutilla</h4>
-            <p>Una combinación explosiva de frutilla con notas dulces que hacen de esta de esta fragancia un aroma súper divertido y difusivo en el ambiente.</p>
-            <p>$650</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/textil2.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Textil Pomelo Rosado</h4>
-            <p>Potente aroma cítrico caracterizado por la frescura del pomelo rosado y la combinación de notas cítricas del limón y la naranja silvestre.</p>
-            <p>$650</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/textil3.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Textil Flowers</h4>
-            <p>Fragancia netamente primaveral, nos transporta a una ciudad soleada, cubierta de jazmines, violetas y delicadas rosas teniendo en su fondo suaves enlaces de vainillas y almizcles blancos</p>
-            <p>$650</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/difusor1.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Difusor Mery</h4>
-            <p>Floral cítrica, radiante, con un corazón floreciente de jazmín y notas verdes, un fondo cálido de tonalidades ambarinas y almizcladas.</p>
-            <p>$910</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/difusor2.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Difusor Rocío</h4>
-            <p>Fresca fragancia floral donde se destacan el típico y delicado olor a ropa limpia, la combinación de notas aldehidicas y la presencia de rosas y flores blancas</p>
-            <p>$910</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/difusor3.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Difusor Maracuyá</h4>
-            <p>Excéntrica fragancia con notas como la vainilla, durazno, bergamota y almizcles. Siendo fragancias cítricasflorales que nos envuelven de una manera deliciosa.</p>
-            <p>$910</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/lata2.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Aerosol Paula</h4>
-            <p>Fusión de notas cítricas de bergamota y limón sobre un corazón amable donde se dan cita la rosa y las orquídeas con un fondo ambarado.</p>
-            <p>$900</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/lata1.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Aerosol Green</h4>
-            <p>Composición con notas de salida exóticas y potentes que van dando lugar a tiernos acordes cítricos dejando un persistente aroma floral verde especiado.</p>
-            <p>$900</p>
-            <button>Agregar al Carrito</button>
-          </article>
-          <article>
-            <img
-              style="width: 10rem"
-              src="../img/lata3.jpg"
-              alt="imagen de ejempo de producto"
-            />
-            <h4>Aerosol Bebé</h4>
-            <p> La nota de salida está caracterizada por la combinación del azahar dulce, cáscara de limón y bergamota.</p>
-            <p>$900</p>
-            <button>Agregar al Carrito</button>
-          </article>
-        </section>
+      <!-- conteni2 -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 title__section">
+            <h1>tienda</h1>
+          </div>
+          <div class="col-12">
+            <3>Adquirí los productos desde la comodidad de tu hogar y aromatiza todos tus espacios con las mejores fragancias.
+            </3>
+          </div>
+        </div>
+        <div class="row">
+          <!-- textiles -->
+          <div class="col-12 product__title"><h3>Textiles:</h3></div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/textil1.jpg" class="card-img-top" alt="Lata frutilla">
+              <div class="card-body">
+                <h5 class="card-title">Textil Frutilla</h5>
+                <p class="card-text">Una combinación explosiva de frutilla con notas dulces que hacen de esta de esta fragancia un aroma súper divertido y difusivo en el ambiente.</p>
+                <p class="product__price">$650</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/textil2.jpg" class="card-img-top" alt="textil pomelo rosado">
+              <div class="card-body">
+                <h5 class="card-title">Textil Pomelo Rosado</h5>
+                <p class="card-text">Potente aroma cítrico caracterizado por la frescura del pomelo rosado y la combinación de notas cítricas del limón y la naranja silvestre.</p>
+                <p class="product__price">$650</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/textil3.jpg" class="card-img-top" alt="Textil flowers">
+              <div class="card-body">
+                <h5 class="card-title">Textil Flowers</h5>
+                <p class="card-text">Fragancia netamente primaveral, nos transporta a una ciudad soleada, cubierta de jazmines, violetas y delicadas rosas teniendo en su fondo suaves enlaces de vainillas y almizcles blancos.</p>
+                <p class="product__price">$650</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <!-- difusores -->
+          <div class="col-12 product__title"><h3>Difusores:</h3></div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/difusor1.jpg" class="card-img-top" alt="Difusor Mery">
+              <div class="card-body">
+                <h5 class="card-title">Difusor Mery</h5>
+                <p class="card-text">Floral cítrica, radiante, con un corazón floreciente de jazmín y notas verdes, un fondo cálido de tonalidades ambarinas y almizcladas.</p>
+                <p class="product__price">$910</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/difusor2.jpg" class="card-img-top" alt="Difusor rocio">
+              <div class="card-body">
+                <h5 class="card-title">Difusor Rocío</h5>
+                <p class="card-text">Fresca fragancia floral donde se destacan el típico y delicado olor a ropa limpia, la combinación de notas aldehidicas y la presencia de rosas y flores blancas.</p>
+                <p class="product__price">$900</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/difusor3.jpg" class="card-img-top" alt="difusor Maracuyá">
+              <div class="card-body">
+                <h5 class="card-title">Difusor Maracuyá</h5>
+                <p class="card-text">Excéntrica fragancia con notas como la vainilla, durazno, bergamota y almizcles. Siendo fragancias cítricasflorales que nos envuelven de una manera deliciosa.</p>
+                <p class="product__price">$910</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <!-- latas -->
+          <div class="col-12 product__title"><h3>Aerosoles:</h3></div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/lata1.jpg" class="card-img-top" alt="Aerosol Te verde">
+              <div class="card-body">
+                <h5 class="card-title">Aerosol Green</h5>
+                <p class="card-text">Composición con notas de salida exóticas y potentes que van dando lugar a tiernos acordes cítricos dejando un persistente aroma floral verde especiado.</p>
+                <p class="product__price">$900</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/lata2.jpg" class="card-img-top" alt="Aerosol Paula">
+              <div class="card-body">
+                <h5 class="card-title">Aerosol Paula</h5>
+                <p class="card-text">Fusión de notas cítricas de bergamota y limón sobre un corazón amable donde se dan cita la rosa y las orquídeas con un fondo ambarado.</p>
+                <p class="product__price">$900</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 product__card my-3 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/lata3.jpg" class="card-img-top" alt="Aerosol bebe">
+              <div class="card-body">
+                <h5 class="card-title">Aerosol Bebé</h5>
+                <p class="card-text">La nota de salida está caracterizada por la combinación del azahar dulce, cáscara de limón y bergamota.</p>
+                <p class="product__price">$900</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      
+
       <!-- wave -->
       <div class="row">
         <div class="col-12">
