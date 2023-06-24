@@ -8,9 +8,7 @@ body {
 
 div {
   .title__section {
-    text-transform: uppercase;
-    color: $primary-color;
-    margin-bottom: 2rem;
+    @include title__section;
   }
   .style__links {
     text-decoration: none;
