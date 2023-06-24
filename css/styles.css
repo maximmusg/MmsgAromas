@@ -384,6 +384,36 @@ div .work__content .work__content--p2 {
   width: 100%;
 }
 
+.title__section div {
+  text-transform: uppercase;
+}
+
+.main__cuenta div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main__cuenta div form a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.main__cuenta div form a:hover {
+  background-color: #025053;
+  cursor: pointer;
+}
+
 .cart__cont {
   margin: 3rem;
 }

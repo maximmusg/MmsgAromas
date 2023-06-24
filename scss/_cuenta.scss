@@ -1,0 +1,19 @@
+.title__section {
+  div {
+    text-transform: uppercase;
+  }
+}
+
+.main__cuenta {
+  div {
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      a {
+        @include btn__style;
+      }
+    }
+  }
+}
