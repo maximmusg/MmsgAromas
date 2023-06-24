@@ -7,6 +7,12 @@ body {
 }
 
 div {
+  .logo__title {
+    align-items: center;
+    // padding: 1rem 1rem 100rem 1rem;
+    border: 1px solid red;
+    margin: 1rem 3rem 5rem 3rem;
+  }
   .title__section {
     @include title__section;
   }
@@ -15,9 +21,6 @@ div {
     color: white;
     .popular__btn {
       @include btn__style;
-    }
-    .popular__btn:hover {
-      background-color: #005b5e;
     }
   }
   .work__content {
@@ -44,6 +47,12 @@ div {
   .header__nav {
     align-items: center;
     margin: 0 auto;
+  }
+  .logo__title {
+    align-items: center;
+    // padding: 1rem 1rem 100rem 1rem;
+    border: 1px solid red;
+    margin: 1rem 15rem 5rem 15rem;
   }
   .footer__copy {
     color: white;

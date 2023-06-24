@@ -8,14 +8,18 @@
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .btn__style:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.btn__style:focus {
+  outline-style: solid;
 }
 
 * {
@@ -30,6 +34,7 @@
   z-index: 2;
 }
 .header__position .bg__component {
+  background-image: linear-gradient(to top, #0e3a5a, black);
   background-color: #0e3a5a;
 }
 .header__position .bg__component .header {
@@ -37,7 +42,6 @@
   justify-content: space-around;
   padding: 1rem;
   text-align: center;
-  background-color: #0e3a5a;
 }
 .header__position .bg__component .header a .image__logo {
   width: 70%;
@@ -69,7 +73,8 @@
 }
 
 .footer__content {
-  background-color: #0e3a5a;
+  background-image: linear-gradient(to bottom, #0e3a5a, black);
+  overflow: hidden;
   padding: 1rem 0;
 }
 .footer__content .footer__inside {
@@ -84,6 +89,9 @@
   font-size: 1.8rem;
   margin-left: 1rem;
 }
+.footer__content .footer__inside .footer__icons a i:hover {
+  color: #008e94;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -92,6 +100,11 @@ body {
   margin: 0 auto;
 }
 
+div .logo__title {
+  align-items: center;
+  border: 1px solid red;
+  margin: 1rem 3rem 5rem 3rem;
+}
 div .title__section {
   text-transform: uppercase;
   color: #008e94;
@@ -111,17 +124,18 @@ div .style__links .popular__btn {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 div .style__links .popular__btn:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
 }
-div .style__links .popular__btn:hover {
-  background-color: #005b5e;
+div .style__links .popular__btn:focus {
+  outline-style: solid;
 }
 div .work__content {
   font-family: "Quicksand", sans-serif;
@@ -146,6 +160,11 @@ div .work__content .work__content--p2 {
   .header__nav {
     align-items: center;
     margin: 0 auto;
+  }
+  .logo__title {
+    align-items: center;
+    border: 1px solid red;
+    margin: 1rem 15rem 5rem 15rem;
   }
   .footer__copy {
     color: white;
@@ -178,14 +197,18 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .product__card .card a:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.product__card .card a:focus {
+  outline-style: solid;
 }
 .product__card .card div h5 {
   color: #008e94;
@@ -356,14 +379,18 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .row__bg .sell__form a:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.row__bg .sell__form a:focus {
+  outline-style: solid;
 }
 
 .sell__testimonials {
@@ -417,14 +444,18 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .sell__ad div .sell__btn:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.sell__ad div .sell__btn:focus {
+  outline-style: solid;
 }
 .sell__ad div img {
   width: 100%;
@@ -450,14 +481,18 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .main__cuenta div form a:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.main__cuenta div form a:focus {
+  outline-style: solid;
 }
 
 .cart__cont {
@@ -500,14 +535,18 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
 .cart__cont div a button:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.cart__cont div a button:focus {
+  outline-style: solid;
 }
 
 .cart__contact .form-group {
@@ -523,6 +562,7 @@ div .work__content .work__content--p2 {
   border: none;
   border-radius: 5%;
   background-color: #008e94;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
@@ -530,8 +570,11 @@ div .work__content .work__content--p2 {
   margin-left: 2rem;
 }
 .cart__contact a:hover {
-  background-color: #025053;
+  background-color: black;
   cursor: pointer;
+}
+.cart__contact a:focus {
+  outline-style: solid;
 }
 
 @media (min-width: 980px) {

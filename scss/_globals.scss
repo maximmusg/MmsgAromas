@@ -9,13 +9,15 @@
   top: 0;
   z-index: 2;
   .bg__component {
+    background-image: linear-gradient(to top, $back-color, black);
+    // background-image: linear-gradient(to right, $back-color, #264960);
     background-color: $back-color;
     .header {
       display: flex;
       justify-content: space-around;
       padding: 1rem;
       text-align: center;
-      background-color: $back-color;
+
       a {
         .image__logo {
           width: 70%;
@@ -56,7 +58,9 @@
 }
 
 .footer__content {
-  background-color: $back-color;
+  background-image: linear-gradient(to bottom, $back-color, black);
+  overflow: hidden;
+  // background-color: $back-color;
   padding: 1rem 0;
   .footer__inside {
     background-color: #212121;
@@ -70,6 +74,9 @@
           color: white;
           font-size: 1.8rem;
           margin-left: 1rem;
+          &:hover {
+            color: $primary-color;
+          }
         }
       }
     }

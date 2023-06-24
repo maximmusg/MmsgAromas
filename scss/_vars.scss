@@ -1,6 +1,7 @@
 $primary-color: #008e94;
 $secondary-color: #025053;
 $back-color: #0e3a5a;
+$grad-color: #05243a;
 $error: #d32752;
 $info: #f6c31c;
 $sombreado: 2px 2px 5px 1px rgb(0 0 0 / 30%);
@@ -46,13 +47,17 @@ $sell-p: "Rubik", sans-serif;
   border: none;
   border-radius: 5%;
   background-color: $bg-color;
+  transition: all 2s ease;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
   &:hover {
-    background-color: $secondary-color;
+    background-color: black;
     cursor: pointer;
+  }
+  &:focus {
+    outline-style: solid;
   }
 }
 
