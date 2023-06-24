@@ -1,22 +1,64 @@
 .row__bg {
   border-radius: 10%;
-  padding: 10rem 1rem;
+  padding: 6rem 1rem;
   background-color: rgb(190, 232, 244);
   margin-bottom: 10rem;
+  align-items: center;
   div {
     .sell__title {
-      color: $primary-color;
+      color: $back-color;
       text-transform: uppercase;
     }
     img {
+      margin-top: 2rem;
       width: 100%;
     }
   }
   .sell__form {
-    .sell__input input {
-      margin-bottom: 1rem;
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: $sombreado;
+
+    .sell__input {
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      input {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+    .sell__radio {
+      margin-bottom: 1.5rem;
+      h5 {
+        text-decoration: underline;
+        display: flex;
+        justify-content: start;
+      }
+      .form-radio {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        @include sub__title;
+        font-size: 1.2rem;
+      }
+    }
+    .sell__checks {
+      margin-bottom: 1.5rem;
+      h5 {
+        text-decoration: underline;
+        display: flex;
+        justify-content: start;
+      }
+      .form-check {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        @include sub__title;
+        font-size: 1.2rem;
+      }
     }
     a {
+      padding: 2rem;
       @include btn__style;
     }
   }

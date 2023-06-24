@@ -140,21 +140,68 @@ div .work__content .work__content--p2 {
 }
 .row__bg {
   border-radius: 10%;
-  padding: 10rem 1rem;
+  padding: 6rem 1rem;
   background-color: rgb(190, 232, 244);
   margin-bottom: 10rem;
+  align-items: center;
 }
 .row__bg div .sell__title {
-  color: #008e94;
+  color: #0e3a5a;
   text-transform: uppercase;
 }
 .row__bg div img {
+  margin-top: 2rem;
   width: 100%;
 }
+.row__bg .sell__form {
+  padding: 1rem 3rem;
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.row__bg .sell__form .sell__input {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
 .row__bg .sell__form .sell__input input {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.row__bg .sell__form .sell__radio {
+  margin-bottom: 1.5rem;
+}
+.row__bg .sell__form .sell__radio h5 {
+  text-decoration: underline;
+  display: flex;
+  justify-content: start;
+}
+.row__bg .sell__form .sell__radio .form-radio {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: 800;
+  font-family: "IM Fell DW Pica", serif;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.row__bg .sell__form .sell__checks {
+  margin-bottom: 1.5rem;
+}
+.row__bg .sell__form .sell__checks h5 {
+  text-decoration: underline;
+  display: flex;
+  justify-content: start;
+}
+.row__bg .sell__form .sell__checks .form-check {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: 800;
+  font-family: "IM Fell DW Pica", serif;
+  font-style: italic;
+  font-size: 1.2rem;
+}
 .row__bg .sell__form a {
+  padding: 2rem;
   text-decoration: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
