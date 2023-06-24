@@ -28,7 +28,21 @@
         font-family: "Montserrat", sans-serif;
       }
       .popular__btn:hover {
-        background-color: #005b5e;
+        background-color: $secondary-color;
+      }
+
+      .active {
+        background-color: $secondary-color;
+        border: 1px solid $primary-color;
+        padding: 0.3rem;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+      }
+      .active__btn {
+        background-color: $secondary-color;
       }
     }
     #navbarSupportedContent {

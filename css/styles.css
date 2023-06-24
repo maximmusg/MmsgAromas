@@ -49,7 +49,20 @@
   font-family: "Montserrat", sans-serif;
 }
 .header__position .bg__component .header .popular__btn:hover {
-  background-color: #005b5e;
+  background-color: #025053;
+}
+.header__position .bg__component .header .active {
+  background-color: #025053;
+  border: 1px solid #008e94;
+  padding: 0.3rem;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+.header__position .bg__component .header .active__btn {
+  background-color: #025053;
 }
 .header__position .bg__component #navbarSupportedContent ul .nav-item a {
   color: white;
