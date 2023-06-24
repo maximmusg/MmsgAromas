@@ -8,10 +8,20 @@ body {
 
 div {
   .logo__title {
-    align-items: center;
-    // padding: 1rem 1rem 100rem 1rem;
-    border: 1px solid red;
     margin: 1rem 3rem 5rem 3rem;
+    align-items: center;
+    div {
+      h1 {
+        color: $primary-color;
+        font-size: 3rem;
+      }
+      img {
+        margin-right: 20%;
+        width: 80%;
+        animation: from-right 1.5s ease;
+        -webkit-animation: from-right 1.5s ease;
+      }
+    }
   }
   .title__section {
     @include title__section;
@@ -43,16 +53,47 @@ div {
   }
 }
 
+// ANIMACIONES
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(120px);
+    -webkit-transform: translateX(120px);
+    -moz-transform: translateX(120px);
+    -ms-transform: translateX(120px);
+    -o-transform: translateX(120px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+
+// MEDIA QUERIES
+
 @media (min-width: 768px) {
   .header__nav {
     align-items: center;
     margin: 0 auto;
   }
   .logo__title {
+    margin: 1rem 3rem 5rem 3rem;
     align-items: center;
-    // padding: 1rem 1rem 100rem 1rem;
-    border: 1px solid red;
-    margin: 1rem 15rem 5rem 15rem;
+    div {
+      h1 {
+        font-size: 4rem;
+        // margin-left: 40%;
+      }
+      img {
+        width: 50%;
+        // margin-right: 40%;
+      }
+    }
   }
   .footer__copy {
     color: white;

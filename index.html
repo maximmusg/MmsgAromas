@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- estilos -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <!-- estilos -->
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- <link rel="stylesheet" href="styles/style2.css"> -->
-
-    <!-- <link rel="stylesheet" href="/styles/style.css" /> -->
+   
     <!-- Iconos de FontAwesome -->
     <link
       rel="stylesheet"
@@ -23,6 +21,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- ANIMATE CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- FONTS -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -112,10 +119,10 @@
       </div>
       <!-- title -->
       <div class="row logo__title">
-        <div class="col-6">
-          <h1>MMSG AROMAS</h1>
+        <div class="col-8">
+          <h1 class="animate__animated animate__heartBeat"  >MMSG AROMAS</h1>
         </div>
-        <div class="col-6">
+        <div class="col-4">
           <img src="img/Iconos gratuitos de Aroma diseñados por Freepik.png" alt="logotipo de la marca">
         </div>
       </div>
@@ -197,7 +204,7 @@
       </div>
       <!-- Destacados de la semana -->
       <div class="row d-flex justify-content-center">
-        <h1 class="my-5 title__section">Destacados de la semana</h2>
+        <h2 class="my-5 title__section">Destacados de la semana</h2>
         <div class="col-sm-12 d-flex justify-content-center my-3 col-md-4">
           <div class="card" style="width: 18rem">
             <img
@@ -246,7 +253,7 @@
       <!-- Vende saphirus -->
       <div class="row d-flex flex-lg-row-reverse text-center mt-5">
         <div class="col-sm-12 my-5 col-lg-6">
-          <h1 class="title__section">Vende Saphirus!</h1>
+          <h2 class="title__section">Vende Saphirus!</h2>
           <div class="work__content rounded-3">
             <p class="work__content--p1">
               Podés incrementar tus ingresos aprovechando el tiempo libre
@@ -290,7 +297,7 @@
       </div>
       <!-- Footer -->
       <div class="footer__content ">
-        <div class="row footer__inside ">
+        <div class="row footer__inside" data-aos="flip-down">
           <div class="col-6 ">
             <h2>Buscanos en las redes</h2>
           </div>
@@ -310,11 +317,14 @@
         </div>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
