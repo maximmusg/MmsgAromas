@@ -8,12 +8,12 @@ body {
 
 div {
   .logo__title {
-    margin: 1rem 3rem 5rem 3rem;
+    margin: 1rem 0.2rem 4rem 0.2rem;
     align-items: center;
     div {
       h1 {
         color: $primary-color;
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
       img {
         margin-right: 20%;
@@ -87,11 +87,11 @@ div {
     div {
       h1 {
         font-size: 4rem;
-        // margin-left: 40%;
+        margin-left: 40%;
       }
       img {
         width: 50%;
-        // margin-right: 40%;
+        margin-right: 60%;
       }
     }
   }
