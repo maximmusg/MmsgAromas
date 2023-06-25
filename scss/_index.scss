@@ -9,7 +9,6 @@ body {
 div {
   .logo__title {
     align-items: center;
-
     .title__principal {
       display: flex;
       align-items: center;
@@ -24,20 +23,32 @@ div {
         // margin-bottom: 10rem;
       }
     }
-
-    // div {
-    //   h1 {
-    //     color: $primary-color;
-    //     font-size: 2.5rem;
-    //   }
-    //   img {
-    //     margin-right: 20%;
-    //     width: 80%;
-    //     animation: from-right 1.5s ease;
-    //     -webkit-animation: from-right 1.5s ease;
-    //   }
-    // }
   }
+
+  // carrousel
+
+  .carrousel {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .carousel-control-prev-icon {
+    background-color: $primary-color;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .carousel-control-next-icon {
+    background-color: $primary-color;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
   .title__section {
     @include title__section;
   }

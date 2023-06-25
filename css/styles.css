@@ -116,6 +116,26 @@ div .logo__title .title__principal img {
   width: 20%;
   animation: from-right 1.5s ease;
 }
+div .carrousel {
+  margin: 0 auto;
+  width: 100%;
+}
+div .carousel-control-prev-icon {
+  background-color: #008e94;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+div .carousel-control-next-icon {
+  background-color: #008e94;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 div .title__section {
   text-transform: uppercase;
   color: #008e94;
