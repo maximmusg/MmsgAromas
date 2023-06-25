@@ -8,20 +8,35 @@ body {
 
 div {
   .logo__title {
-    margin: 1rem 0.2rem 4rem 0.2rem;
     align-items: center;
-    div {
+
+    .title__principal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
       h1 {
         color: $primary-color;
-        font-size: 2.5rem;
       }
       img {
-        margin-right: 20%;
-        width: 80%;
+        width: 20%;
         animation: from-right 1.5s ease;
-        -webkit-animation: from-right 1.5s ease;
+        // margin-bottom: 10rem;
       }
     }
+
+    // div {
+    //   h1 {
+    //     color: $primary-color;
+    //     font-size: 2.5rem;
+    //   }
+    //   img {
+    //     margin-right: 20%;
+    //     width: 80%;
+    //     animation: from-right 1.5s ease;
+    //     -webkit-animation: from-right 1.5s ease;
+    //   }
+    // }
   }
   .title__section {
     @include title__section;
@@ -81,20 +96,20 @@ div {
     align-items: center;
     margin: 0 auto;
   }
-  .logo__title {
-    margin: 1rem 3rem 5rem 3rem;
-    align-items: center;
-    div {
-      h1 {
-        font-size: 4rem;
-        margin-left: 40%;
-      }
-      img {
-        width: 50%;
-        margin-right: 60%;
-      }
-    }
-  }
+  // .logo__title {
+  //   margin: 1rem 3rem 5rem 3rem;
+  //   align-items: center;
+  //   div {
+  //     h1 {
+  //       font-size: 4rem;
+  //       margin-left: 40%;
+  //     }
+  //     img {
+  //       width: 50%;
+  //       margin-right: 60%;
+  //     }
+  //   }
+  // }
   .footer__copy {
     color: white;
   }

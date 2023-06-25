@@ -101,18 +101,20 @@ body {
 }
 
 div .logo__title {
-  margin: 1rem 0.2rem 4rem 0.2rem;
   align-items: center;
 }
-div .logo__title div h1 {
-  color: #008e94;
-  font-size: 2.5rem;
+div .logo__title .title__principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
-div .logo__title div img {
-  margin-right: 20%;
-  width: 80%;
+div .logo__title .title__principal h1 {
+  color: #008e94;
+}
+div .logo__title .title__principal img {
+  width: 20%;
   animation: from-right 1.5s ease;
-  -webkit-animation: from-right 1.5s ease;
 }
 div .title__section {
   text-transform: uppercase;
@@ -187,18 +189,6 @@ div .work__content .work__content--p2 {
   .header__nav {
     align-items: center;
     margin: 0 auto;
-  }
-  .logo__title {
-    margin: 1rem 3rem 5rem 3rem;
-    align-items: center;
-  }
-  .logo__title div h1 {
-    font-size: 4rem;
-    margin-left: 40%;
-  }
-  .logo__title div img {
-    width: 50%;
-    margin-right: 60%;
   }
   .footer__copy {
     color: white;
