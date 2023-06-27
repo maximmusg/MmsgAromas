@@ -225,6 +225,18 @@ div .work__content .work__content--p2 {
   display: flex;
   justify-content: center;
 }
+.product__card:hover {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  position: relative;
+}
+.product__card .card img {
+  margin: auto;
+  width: 80%;
+}
 .product__card .card .card-body {
   display: flex;
   flex-direction: column;

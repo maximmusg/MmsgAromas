@@ -8,9 +8,22 @@
 .product__card {
   display: flex;
   justify-content: center;
+  &:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    position: relative;
+  }
   .card {
+    img {
+      margin: auto;
+      width: 80%;
+    }
+
     .card-body {
-      //   background-color: red;
+      // background-color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
