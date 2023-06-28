@@ -5,6 +5,7 @@ $grad-color: #05243a;
 $error: #d32752;
 $info: #f6c31c;
 $sombreado: 2px 2px 5px 1px rgb(0 0 0 / 30%);
+$sizeletters: 1rem;
 
 //color palette
 
@@ -39,7 +40,7 @@ $sell-p: "Rubik", sans-serif;
 
 @mixin btn__style($bg-color: #008e94) {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: $sizeletters;
   padding: 0.5rem 1rem;
   color: white;
   text-transform: uppercase;

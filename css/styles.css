@@ -228,6 +228,11 @@ div .work__content .work__content--p2 {
     color: white;
   }
 }
+.intro_tienda {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
 .product__title {
   text-decoration: underline;
   text-transform: uppercase;
@@ -327,7 +332,7 @@ div .work__content .work__content--p2 {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  font-size: larger;
+  font-size: 1rem;
 }
 .about__main .about__content .about__text--italic {
   font-style: italic;
