@@ -10,7 +10,6 @@
   z-index: 2;
   .bg__component {
     background-image: linear-gradient(to top, $back-color, black);
-    // background-image: linear-gradient(to right, $back-color, #264960);
     background-color: $back-color;
     .header {
       display: flex;
@@ -54,7 +53,6 @@
 .footer__content {
   background-image: linear-gradient(to bottom, $back-color, black);
   overflow: hidden;
-  // background-color: $back-color;
   padding: 1rem 0;
   .footer__inside {
     background-color: #212121;

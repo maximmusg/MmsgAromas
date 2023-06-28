@@ -6,8 +6,6 @@ $error: #d32752;
 $info: #f6c31c;
 $sombreado: 2px 2px 5px 1px rgb(0 0 0 / 30%);
 
-// para modificar carousell de bootstrap
-
 //color palette
 
 $colors: (
@@ -66,12 +64,3 @@ $sell-p: "Rubik", sans-serif;
 .btn__style {
   @include btn__style;
 }
-
-// @each $key, $val in $colors {
-//   .btn__style-#{$key} {
-//     @include btn__style($val);
-//     &:hover {
-//       background-color: black;
-//     }
-//   }
-// }
