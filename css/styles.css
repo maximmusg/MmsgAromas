@@ -230,7 +230,7 @@ div .work__content .work__content--p2 {
 }
 .intro_tienda {
   margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .product__title {
@@ -295,6 +295,12 @@ div .work__content .work__content--p2 {
   color: #0e3a5a;
 }
 
+@media (min-width: 768px) {
+  .intro_tienda {
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+}
 .about__title {
   font-size: 1.5rem;
   text-align: center;

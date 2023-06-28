@@ -1,6 +1,6 @@
 .intro_tienda {
   margin: 0 auto;
-  font-size: $sizeletters * 2;
+  font-size: $sizeletters;
 }
 
 .product__title {
@@ -47,5 +47,12 @@
         color: $back-color;
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .intro_tienda {
+    margin: 0 auto;
+    font-size: $sizeletters * 2;
   }
 }
