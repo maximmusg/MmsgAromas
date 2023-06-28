@@ -24,21 +24,23 @@
     h6 {
       margin-bottom: 2rem;
     }
-    a {
-      button {
-        @include btn__style;
-      }
-    }
   }
 }
 
 .cart__contact {
   .form-group {
     margin-bottom: 2rem;
+    .button__enviar {
+      margin: 2rem;
+      a {
+        @include btn__style;
+      }
+    }
   }
-  a {
-    @include btn__style;
-    margin-left: 2rem;
+  .button__tienda {
+    a {
+      @include btn__style;
+    }
   }
 }
 

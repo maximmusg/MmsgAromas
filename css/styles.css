@@ -47,13 +47,27 @@
   width: 70%;
 }
 .header__position .bg__component .header .popular__btn {
-  font-size: 1.3rem;
-  background-color: #008e94;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
   color: white;
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  transition: all 2s ease;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
 .header__position .bg__component .header .popular__btn:hover {
-  background-color: #025053;
+  background-color: black;
+  cursor: pointer;
+}
+.header__position .bg__component .header .popular__btn:focus {
+  outline-style: solid;
 }
 .header__position .bg__component .header .active {
   background-color: #025053;
@@ -581,34 +595,14 @@ div .work__content .work__content--p2 {
 .cart__cont div h6 {
   margin-bottom: 2rem;
 }
-.cart__cont div a button {
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  color: white;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  border-radius: 5%;
-  background-color: #008e94;
-  transition: all 2s ease;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-.cart__cont div a button:hover {
-  background-color: black;
-  cursor: pointer;
-}
-.cart__cont div a button:focus {
-  outline-style: solid;
-}
 
 .cart__contact .form-group {
   margin-bottom: 2rem;
 }
-.cart__contact a {
+.cart__contact .form-group .button__enviar {
+  margin: 2rem;
+}
+.cart__contact .form-group .button__enviar a {
   text-decoration: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -623,13 +617,35 @@ div .work__content .work__content--p2 {
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
-  margin-left: 2rem;
 }
-.cart__contact a:hover {
+.cart__contact .form-group .button__enviar a:hover {
   background-color: black;
   cursor: pointer;
 }
-.cart__contact a:focus {
+.cart__contact .form-group .button__enviar a:focus {
+  outline-style: solid;
+}
+.cart__contact .button__tienda a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  transition: all 2s ease;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.cart__contact .button__tienda a:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.cart__contact .button__tienda a:focus {
   outline-style: solid;
 }
 
