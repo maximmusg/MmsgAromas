@@ -665,5 +665,45 @@ div .work__content .work__content--p2 {
     padding: 0rem 10rem;
   }
 }
+.img__error {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: white;
+}
+.img__error h1 {
+  text-transform: uppercase;
+  color: #d32752;
+  margin-bottom: 2rem;
+}
+.img__error img {
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.img__error .btn__error {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5%;
+  background-color: #008e94;
+  transition: all 2s ease;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+.img__error .btn__error:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.img__error .btn__error:focus {
+  outline-style: solid;
+}
 
 /*# sourceMappingURL=styles.css.map */
