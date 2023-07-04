@@ -28,6 +28,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f1ff;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header__position {
   position: sticky;
   top: 0;
@@ -105,13 +112,6 @@
 }
 .footer__content .footer__inside .footer__icons a i:hover {
   color: #008e94;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f0f1ff;
-  width: 100%;
-  margin: 0 auto;
 }
 
 div .logo__title {
