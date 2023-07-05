@@ -21,12 +21,11 @@ body {
     .header {
       display: flex;
       justify-content: space-around;
-      padding: 1rem;
       text-align: center;
 
       a {
         .image__logo {
-          width: 70%;
+          width: 65%;
         }
       }
       .popular__btn {
