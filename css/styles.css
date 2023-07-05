@@ -153,6 +153,10 @@ body {
 .footer__content .footer__inside .footer__icons a i:hover {
   color: #008e94;
 }
+.footer__content .footer__copy {
+  color: white;
+  text-align: center;
+}
 
 div .logo__title {
   align-items: center;
