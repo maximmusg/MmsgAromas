@@ -28,6 +28,7 @@ $sell-p: "Rubik", sans-serif;
 
 @mixin title__section {
   text-transform: uppercase;
+  font-weight: 700;
   color: $primary-color;
   margin-bottom: 2rem;
 }

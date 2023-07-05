@@ -76,6 +76,10 @@ body {
   margin: 0 auto;
 }
 
+.title__page {
+  font-weight: 900;
+}
+
 .header__position {
   position: sticky;
   top: 0;
@@ -196,6 +200,7 @@ div .carousel-control-next-icon {
 }
 div .title__section {
   text-transform: uppercase;
+  font-weight: 700;
   color: #008e94;
   margin-bottom: 2rem;
 }
@@ -629,6 +634,7 @@ div .work__content .work__content--p2 {
 }
 .cart__cont div h1 {
   text-transform: uppercase;
+  font-weight: 700;
   color: #008e94;
   margin-bottom: 2rem;
 }
