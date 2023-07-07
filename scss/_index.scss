@@ -6,12 +6,10 @@ div {
       align-items: center;
       justify-content: center;
       margin-bottom: 5rem;
-      h1 {
-        color: $primary-color;
-      }
       img {
         width: 20%;
         animation: from-right 1.5s ease;
+        -webkit-animation: from-right 1.5s ease;
       }
     }
   }

@@ -3,14 +3,11 @@
   div {
     display: flex;
     flex-direction: column;
-    h1 {
-      @include title__section;
-    }
     img {
       width: 100%;
       padding: 0.3rem;
       background-color: $primary-color;
-      margin-bottom: 2rem;
+      margin: 4rem 0 2rem 0;
     }
     h4 {
       span {

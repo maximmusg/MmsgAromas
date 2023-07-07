@@ -75,9 +75,10 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
-.title__page {
+body h1 {
+  color: #008e94;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .header__position {
@@ -171,12 +172,10 @@ div .logo__title .title__principal {
   justify-content: center;
   margin-bottom: 5rem;
 }
-div .logo__title .title__principal h1 {
-  color: #008e94;
-}
 div .logo__title .title__principal img {
   width: 20%;
   animation: from-right 1.5s ease;
+  -webkit-animation: from-right 1.5s ease;
 }
 div .carrousel {
   margin: 0 auto;
@@ -632,17 +631,11 @@ div .work__content .work__content--p2 {
   display: flex;
   flex-direction: column;
 }
-.cart__cont div h1 {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #008e94;
-  margin-bottom: 2rem;
-}
 .cart__cont div img {
   width: 100%;
   padding: 0.3rem;
   background-color: #008e94;
-  margin-bottom: 2rem;
+  margin: 4rem 0 2rem 0;
 }
 .cart__cont div h4 {
   color: #d32752;

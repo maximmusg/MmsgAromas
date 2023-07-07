@@ -26,6 +26,12 @@ $colors: (
 $pre-title: "IM Fell DW Pica", serif;
 $sell-p: "Rubik", sans-serif;
 
+@mixin title__page {
+  color: $primary-color;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 @mixin title__section {
   text-transform: uppercase;
   font-weight: 700;
