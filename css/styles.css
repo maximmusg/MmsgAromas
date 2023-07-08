@@ -162,6 +162,14 @@ body h1 {
   color: white;
   text-align: center;
 }
+.footer__content .footer__copy p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer__content .footer__copy p a:hover {
+  color: #008e94;
+}
 
 div .logo__title {
   align-items: center;

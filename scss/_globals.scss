@@ -85,5 +85,16 @@ body {
   .footer__copy {
     color: white;
     text-align: center;
+    p {
+      a {
+        color: white;
+        text-decoration: none;
+        // font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
   }
 }
